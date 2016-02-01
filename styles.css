@@ -35,9 +35,7 @@
   font-size: 2em;
   }
   body {
-  background:url(staticbg.jpg);
-  background-size:cover;
-  background-position:right;
+  background:transparent url("staticbg.jpg") no-repeat fixed 0px 0px / cover
   }
 @media all and (max-width: 699px) {
   #video-bg {
@@ -48,7 +46,7 @@
   margin: auto;
   }
   body {
-  background:url(mobilebg.jpg);
+  background:transparent url("mobilebg.jpg") no-repeat fixed 0px 0px / cover
   }
   .sidebar h1 {
   font-family: 'Asar', serif;
